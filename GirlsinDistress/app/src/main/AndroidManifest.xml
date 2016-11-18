@@ -36,7 +36,11 @@
 
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".VentanaMapa" />
+        <activity android:name=".VentanaDenuncias" />
+        <activity android:name=".VentanaInfo" />
+        <activity android:name=".VentanaContacto"></activity>
     </application>
 
 </manifest>

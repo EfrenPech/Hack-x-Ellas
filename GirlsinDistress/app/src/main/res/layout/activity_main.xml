@@ -55,54 +55,43 @@
 
 
     >>>>>>> 2a911325974f46e5e6487efda44d630ac037e39d
-]]>
 
-    <Button
-        android:text="Button"
+
+    ]]>
+
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mapas"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="49dp"
+        android:layout_marginTop="24dp"
         android:id="@+id/btn1" />
 
-    <Button
-        android:text="Button"
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mapas"
         android:layout_below="@+id/btn1"
-        android:layout_alignRight="@+id/btn1"
-        android:layout_alignEnd="@+id/btn1"
-        android:layout_marginTop="31dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
         android:id="@+id/btn2" />
 
-    <Button
-        android:text="Button"
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mapas"
         android:layout_below="@+id/btn2"
-        android:layout_alignLeft="@+id/btn2"
-        android:layout_alignStart="@+id/btn2"
-        android:layout_marginTop="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
         android:id="@+id/btn3" />
 
-    <Button
-        android:text="Button"
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mapas"
         android:layout_below="@+id/btn3"
-        android:layout_alignRight="@+id/btn3"
-        android:layout_alignEnd="@+id/btn3"
-        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
         android:id="@+id/btn4" />
-
-    <Button
-        android:text="Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/btn4"
-        android:layout_alignStart="@+id/btn4"
-        android:layout_marginBottom="31dp"
-        android:id="@+id/btn5" />
 </RelativeLayout>
