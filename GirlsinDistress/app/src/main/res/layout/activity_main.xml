@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.jonathan.girlsindistress.MainActivity"
-    android:background="@color/Fondo"><![CDATA[
+    android:background="@drawable/fondo"><![CDATA[
 
 <<<<<<< HEAD
     <TextView
@@ -52,29 +52,57 @@
 
 
 
-    ]]>
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+
+    >>>>>>> 2a911325974f46e5e6487efda44d630ac037e39d
+]]>
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="41dp">
+        android:layout_marginTop="49dp"
+        android:id="@+id/btn1" />
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn1"
+        android:layout_alignRight="@+id/btn1"
+        android:layout_alignEnd="@+id/btn1"
+        android:layout_marginTop="31dp"
+        android:id="@+id/btn2" />
 
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/mapas"
-                android:id="@+id/imageButton12"
-                android:layout_weight="1"
-                android:background="@android:color/transparent" />
-        </LinearLayout>
-    </LinearLayout>
->>>>>>> 2a911325974f46e5e6487efda44d630ac037e39d
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn2"
+        android:layout_alignLeft="@+id/btn2"
+        android:layout_alignStart="@+id/btn2"
+        android:layout_marginTop="48dp"
+        android:id="@+id/btn3" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn3"
+        android:layout_alignRight="@+id/btn3"
+        android:layout_alignEnd="@+id/btn3"
+        android:layout_marginTop="45dp"
+        android:id="@+id/btn4" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btn4"
+        android:layout_alignStart="@+id/btn4"
+        android:layout_marginBottom="31dp"
+        android:id="@+id/btn5" />
 </RelativeLayout>
