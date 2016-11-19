@@ -2,6 +2,7 @@ package com.example.jonathan.girlsindistress;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.widget.ImageButton;
 import android.widget.Button;
 import android.view.View;
@@ -11,6 +12,7 @@ import android.support.v4.app.ActivityCompat;
 import android.Manifest;
 import android.support.v7.app.AppCompatActivity;
 import android.content.Intent;
+import android.widget.TextView;
 
 import static android.net.Uri.parse;
 
@@ -18,11 +20,14 @@ public class VentanaContacto extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
+
+
         setContentView(R.layout.activity_ventana_contacto);
         ImageButton tw_ciam = (ImageButton) findViewById(R.id.imageButton2);
         ImageButton fb_ciam = (ImageButton) findViewById(R.id.imageButton3);
-        ImageButton tel_ciam = (ImageButton) findViewById(R.id.imageButton4);
+        ImageButton tel_ciam = (ImageButton) findViewById(R.id.imageButton5);
         Button tw_b_ciam = (Button) findViewById(R.id.button2);
         Button fb_b_ciam = (Button) findViewById(R.id.button3);
         Button tel_b_ciam = (Button) findViewById(R.id.button4);
