@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_igualdad"
@@ -40,12 +43,26 @@
         android:layout_marginTop="15dp" />
 
     <TextView
-        android:text="Las instituciones que lo conforman tienen la obligación de garantizar la igualdad en todo el territorio nacional, mediante la adopción de políticas, programas, proyectos e instrumentos compensatorios como acciones afirmativas, y prever los recursos presupuestarios para llevarlos a cabo."
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView14"
         android:layout_below="@+id/textView13"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="15dp"
+        android:text="Las instituciones que lo conforman tienen la obligación de garantizar la igualdad en todo el territorio nacional, mediante la adopción de políticas, programas, proyectos e instrumentos compensatorios como acciones afirmativas, y prever los recursos presupuestarios para llevarlos a cabo." />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
 </RelativeLayout>
+</ScrollView>
