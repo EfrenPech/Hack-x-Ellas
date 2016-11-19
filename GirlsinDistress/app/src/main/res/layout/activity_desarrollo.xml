@@ -23,27 +23,6 @@
         android:id="@+id/textView35" />
 
     <TextView
-        android:text="La desigualdad de oportunidades entre hombres y mujeres es una barrera que impide el desarrollo pleno de la humanidad. Para un desarrollo con justicia económica se tiene derecho a:"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView35"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="12dp"
-        android:id="@+id/textView36" />
-
-    <TextView
-        android:text="La distribución equitativa de bienes, patrimonios, ingresos y servicios"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="27dp"
-        android:layout_marginStart="27dp"
-        android:id="@+id/textView37" />
-
-    <TextView
         android:text="Igualdad de oportunidades para obtener recursos económicos y la propiedad la tierra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -72,5 +51,24 @@
         android:layout_alignStart="@+id/textView39"
         android:layout_marginTop="12dp"
         android:id="@+id/textView40" />
+
+    <TextView
+        android:text="La distribución equitativa de bienes, patrimonios, ingresos y servicios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView37"
+        android:layout_below="@+id/textView35"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="La desigualdad de oportunidades entre hombres y mujeres es una barrera que impide el desarrollo pleno de la humanidad. Para un desarrollo con justicia económica se tiene derecho a:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView36"
+        android:layout_marginTop="9dp"
+        android:layout_below="@+id/textView40"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
 </ScrollView>
