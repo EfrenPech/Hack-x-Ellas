@@ -77,6 +77,19 @@ public class VentanaContacto extends AppCompatActivity {
             }
         });
 
+        tel_b_ciam.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:8980755"));
+
+                if (ActivityCompat.checkSelfPermission(VentanaContacto.this
+                        ,Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                    return;
+                }
+                startActivity(intent);
+            }
+        });
 
     }
 }
