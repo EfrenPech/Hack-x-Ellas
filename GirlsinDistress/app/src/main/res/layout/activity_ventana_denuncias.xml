@@ -20,93 +20,99 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <TextView
-        android:text="Tipo de Violencia"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView3"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="44dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="26dp"
-        android:id="@+id/textView62" />
 
-    <RadioGroup
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView62"
-        android:layout_alignLeft="@+id/textView62"
-        android:layout_alignStart="@+id/textView62"
-        android:layout_marginTop="27dp" />
-
-    <RadioButton
-        android:text="Acoso Sexual"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="107dp"
-        android:id="@+id/radioButton4"
-        android:layout_below="@+id/radioGroup"
-        android:layout_alignLeft="@+id/radioButton6"
-        android:layout_alignStart="@+id/radioButton6" />
-
-    <RadioButton
-        android:text="Robo "
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/radioButton5"
-        android:layout_below="@+id/radioButton6"
-        android:layout_alignLeft="@+id/radioButton6"
-        android:layout_alignStart="@+id/radioButton6" />
-
-    <RadioButton
-        android:text="Agresión Física"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/radioButton6"
-        android:layout_marginLeft="11dp"
-        android:layout_marginStart="11dp"
-        android:layout_below="@+id/radioButton4"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:text="Denunciar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/radioButton5"
-        android:layout_alignRight="@+id/radioButton6"
-        android:layout_alignEnd="@+id/radioButton6"
-        android:layout_marginTop="19dp"
-        android:id="@+id/Denunciar" />
 
     <TextView
         android:text="Ubicación Actual"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/Denunciar"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView63"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView62"
+        android:layout_alignStart="@+id/textView62" />
+
+    <Button
+        android:text="Denunciar"
+        android:background="#F5A9A9"
+        android:layout_height="60dp"
+        android:id="@+id/Igualdad"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="80dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
-        android:id="@+id/textView63" />
+        android:layout_marginBottom="91dp" />
+
+
+
+    <TextView
+        android:text="Latitud: 0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Latitud"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
 
     <TextView
         android:text="Longitud: 0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/Longitud"
-        android:layout_marginTop="17dp"
         android:layout_below="@+id/Latitud"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
 
     <TextView
-        android:text="Latitud: 0"
+        android:text="Tipo de Violencia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="29dp"
-        android:id="@+id/Latitud"
-        android:layout_below="@+id/textView63"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:id="@+id/textView62"
+        android:layout_marginTop="53dp"
+        android:layout_below="@+id/Longitud"
+        android:layout_centerHorizontal="true" />
+
+    <RadioGroup
+        android:id="@+id/Respuestas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/textView62"
+        android:layout_centerHorizontal="true">
+
+    <RadioButton
+        android:text="Acoso Sexual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton4"
+        android:name = "hola"
+        android:layout_alignBottom="@+id/radioButton6"
+        android:layout_alignRight="@+id/textView63"
+        android:layout_alignEnd="@+id/textView63" />
+
+        <RadioButton
+            android:text="Robo "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton5"
+            android:name = "hola"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/radioButton6"
+            android:layout_alignStart="@+id/radioButton6" />
+
+        <RadioButton
+        android:text="Agresión Física"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton6"
+        android:name = "hola"
+        android:layout_above="@+id/radioButton5"
+        android:layout_alignLeft="@+id/radioButton4"
+        android:layout_alignStart="@+id/radioButton4" />
+    </RadioGroup>
+    >
 
 </RelativeLayout>
