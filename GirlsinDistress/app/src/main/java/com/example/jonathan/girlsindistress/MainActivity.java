@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent VentanaContacto = new Intent(MainActivity.this, com.example.jonathan.girlsindistress.VentanaContacto.class);
-                startActivity(VentanaContacto);
+            startActivity(VentanaContacto);
             }
         });
         informacion.setOnClickListener(new View.OnClickListener() {
