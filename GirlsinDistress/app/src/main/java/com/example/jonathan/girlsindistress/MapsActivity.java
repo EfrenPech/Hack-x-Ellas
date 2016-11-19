@@ -52,7 +52,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         Marcador = mMap.addMarker(new MarkerOptions()
                 .position(coordenadas)
                 .title(coordenadas.toString())
-                .icon(BitmapDescriptorFactory.fromResource(R.mipmap.ic_launcher)));
+                .icon(BitmapDescriptorFactory.fromResource(R.mipmap.ubicacion)));
         mMap.animateCamera(miUbicacion);
     }
 
