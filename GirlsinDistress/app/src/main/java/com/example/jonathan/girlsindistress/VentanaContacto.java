@@ -28,6 +28,8 @@ public class VentanaContacto extends AppCompatActivity {
         ImageButton tw_ciam = (ImageButton) findViewById(R.id.imageButton2);
         ImageButton fb_ciam = (ImageButton) findViewById(R.id.imageButton3);
         ImageButton tel_ciam = (ImageButton) findViewById(R.id.imageButton5);
+        ImageButton tel_pgr = (ImageButton) findViewById(R.id.t1);
+        Button tel_b_pgr = (Button) findViewById(R.id.telpgr);
         Button tw_b_ciam = (Button) findViewById(R.id.button2);
         Button fb_b_ciam = (Button) findViewById(R.id.button3);
         Button tel_b_ciam = (Button) findViewById(R.id.button4);
@@ -87,6 +89,34 @@ public class VentanaContacto extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_DIAL);
                 intent.setData(Uri.parse("tel:8980755"));
+
+                if (ActivityCompat.checkSelfPermission(VentanaContacto.this
+                        ,Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                    return;
+                }
+                startActivity(intent);
+            }
+        });
+
+        tel_b_pgr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:998881960"));
+
+                if (ActivityCompat.checkSelfPermission(VentanaContacto.this
+                        ,Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+                    return;
+                }
+                startActivity(intent);
+            }
+        });
+
+        tel_pgr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse("tel:998881960"));
 
                 if (ActivityCompat.checkSelfPermission(VentanaContacto.this
                         ,Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {

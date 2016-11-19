@@ -10,12 +10,109 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.jonathan.girlsindistress.VentanaDenuncias">
 
+
     <TextView
-        android:text="Efren"
+        android:text="¡Pasa la Voz! Haz Tu Denuncia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginTop="41dp"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <TextView
+        android:text="Ubicación Actual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView63"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/textView62"
+        android:layout_alignStart="@+id/textView62" />
+
+    <Button
+        android:text="Denunciar"
+        android:background="#F5A9A9"
+        android:layout_height="60dp"
+        android:id="@+id/Igualdad"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="80dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="84dp"
-        android:id="@+id/textView3" />
+        android:layout_marginBottom="91dp" />
+
+
+
+    <TextView
+        android:text="Latitud: 0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Latitud"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:text="Longitud: 0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Longitud"
+        android:layout_below="@+id/Latitud"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:text="Tipo de Violencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView62"
+        android:layout_marginTop="53dp"
+        android:layout_below="@+id/Longitud"
+        android:layout_centerHorizontal="true" />
+
+    <RadioGroup
+        android:id="@+id/Respuestas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/textView62"
+        android:layout_centerHorizontal="true">
+
+    <RadioButton
+        android:text="Acoso Sexual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton4"
+        android:name = "hola"
+        android:layout_alignBottom="@+id/radioButton6"
+        android:layout_alignRight="@+id/textView63"
+        android:layout_alignEnd="@+id/textView63" />
+
+        <RadioButton
+            android:text="Robo "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton5"
+            android:name = "hola"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/radioButton6"
+            android:layout_alignStart="@+id/radioButton6" />
+
+        <RadioButton
+        android:text="Agresión Física"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton6"
+        android:name = "hola"
+        android:layout_above="@+id/radioButton5"
+        android:layout_alignLeft="@+id/radioButton4"
+        android:layout_alignStart="@+id/radioButton4" />
+    </RadioGroup>
+    >
+
 </RelativeLayout>
