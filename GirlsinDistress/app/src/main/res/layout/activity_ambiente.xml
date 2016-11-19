@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_ambiente"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jonathan.girlsindistress.Ambiente">
+
+    <TextView
+        android:text="Las mujeres desempeñamos un papel muy importante en el manejo y la conservación de los recursos naturales y el medio ambiente."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView46" />
+
+    <TextView
+        android:text="La crisis ambiental actual se debe a un modelo de desarrollo que no está cuidando los recursos naturales. La de­gradación ambiental tiene efectos negativos sobre la salud, el bienes­tar y la calidad de vida de la población. Para un medio ambiente sano se tiene derecho a:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView46"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView47" />
+
+    <TextView
+        android:text="Educación y capacitación en el manejo adecuado de los recursos naturales y en la conservación del medio ambiente, aire no contaminado, agua limpia, alimentos no tóxicos, entre otros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView47"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textView48" />
+
+    <TextView
+        android:text="El uso de tecnología adecuada que no implique peligro para la salud y la vida del planeta."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView48"
+        android:layout_alignLeft="@+id/textView48"
+        android:layout_alignStart="@+id/textView48"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView49" />
+
+    <TextView
+        android:text="Participar en los planes de ordenamiento ecológico territorial."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView50"
+        android:layout_below="@+id/textView49"
+        android:layout_alignLeft="@+id/textView49"
+        android:layout_alignStart="@+id/textView49" />
+
+    <TextView
+        android:text="Participar en los planes de ordenamiento ecológico territorial."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView50"
+        android:layout_alignLeft="@+id/textView50"
+        android:layout_alignStart="@+id/textView50"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView51" />
+</RelativeLayout>

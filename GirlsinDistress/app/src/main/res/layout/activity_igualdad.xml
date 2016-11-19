@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_igualdad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jonathan.girlsindistress.Igualdad">
+
+    <TextView
+        android:text="La igualdad de género consiste en que los diferentes comportamientos, aspiraciones y necesidades de mujeres y hombres, se tomen en cuenta, valoren y promuevan de la misma manera, esto es, que los seres humanos tienen derecho a vivir libres de cualquier forma de discriminación por motivos de sexo."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:text="Aun cuando el valor de la igualdad ha sido reconocido en diversas convenciones internacionales y en las leyes nacionales, las mujeres afrontan situaciones que desfavorecen el goce pleno de sus derechos. "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:text="Para generar condiciones que garanticen el cumplimiento de la igualdad, la Ley General para la Igualdad entre Mujeres y Hombres, promulgada en México en 2006, dispone que la Federación, los estados y los municipios, dentro de sus respectivas atribuciones, establecerán las bases de coordinación para la integración y funcionamiento del Sistema Nacional para la Igualdad entre Mujeres y Hombres. "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:text="Las instituciones que lo conforman tienen la obligación de garantizar la igualdad en todo el territorio nacional, mediante la adopción de políticas, programas, proyectos e instrumentos compensatorios como acciones afirmativas, y prever los recursos presupuestarios para llevarlos a cabo."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+</RelativeLayout>

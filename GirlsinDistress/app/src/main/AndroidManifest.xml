@@ -40,7 +40,19 @@
         <activity android:name=".VentanaMapa" />
         <activity android:name=".VentanaDenuncias" />
         <activity android:name=".VentanaInfo" />
-        <activity android:name=".VentanaContacto"></activity>
+        <activity android:name=".VentanaContacto" />
+        <activity android:name=".Igualdad" />
+        <activity android:name=".Educacion" />
+        <activity android:name=".Salud" />
+        <activity android:name=".Violencia" />
+        <activity android:name=".Trabajo" />
+        <activity android:name=".Desarrollo" />
+        <activity android:name=".Politica" />
+        <activity
+            android:name=".Ambiente"
+            android:label="@string/title_activity_ambiente"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Informacion"></activity>
     </application>
 
 </manifest>

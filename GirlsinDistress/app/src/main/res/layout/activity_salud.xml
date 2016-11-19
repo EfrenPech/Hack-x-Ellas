@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_salud"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jonathan.girlsindistress.Salud">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView20"
+        android:text="La esperanza de vida ha aumentado en los últimos decenios. A pesar de ello, algunas enfermedades como el cáncer cérvicouterino y de mama constituyen un grave problema de salud." />
+
+    <TextView
+        android:text="En nuestro país muchas mujeres de zonas urbanas y rurales, especial­mente de poblaciones marginadas, en­fren­tan grandes dificultades para recibir atención médica y, cuando se les proporciona, ésta suete ser deficiente. La salud, tanto física como mental, es uno de nuestros derechos más importantes."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/textView21" />
+
+    <TextView
+        android:text="Para un pleno bienestar físico, emocional, mental y social tenemos derecho a:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView22" />
+
+    <TextView
+        android:text="Contar con servicios de salud accesibles y de buena calidad."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView22"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView23" />
+
+    <TextView
+        android:text="Que los servicios de salud brinden atención integral que tome en cuenta las diferencias biológicas, médicas, psicológicas, laborales y económicas."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView23"
+        android:layout_alignLeft="@+id/textView23"
+        android:layout_alignStart="@+id/textView23"
+        android:id="@+id/textView24" />
+
+    <TextView
+        android:text="Que la información sobre los servicios de salud que recibimos tome en cuenta nuestra condición de género."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView24"
+        android:layout_alignLeft="@+id/textView24"
+        android:layout_alignStart="@+id/textView24"
+        android:id="@+id/textView25" />
+</RelativeLayout>

@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         mapa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ventanaMapa = new Intent(MainActivity.this,VentanaMapa.class);
+                Intent ventanaMapa = new Intent(MainActivity.this,MapsActivity.class);
                 startActivity(ventanaMapa);
             }
         });
