@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         ImageButton denuncias =(ImageButton)findViewById(R.id.btn2);
         ImageButton informacion = (ImageButton)findViewById(R.id.btn3);
         ImageButton contacto = (ImageButton)findViewById(R.id.btn4);
+
         contacto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
