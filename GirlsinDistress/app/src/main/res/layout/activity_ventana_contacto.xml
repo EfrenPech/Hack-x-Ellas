@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -64,7 +65,6 @@
         android:layout_alignStart="@+id/button3" />
 
 
-
     <ImageButton
         android:layout_width="30dp"
         app:srcCompat="@drawable/twitter"
@@ -106,6 +106,39 @@
         android:layout_marginTop="17dp"
         android:layout_below="@+id/textView4"
         android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/pgr"
+        android:id="@+id/imageView3"
+        android:layout_width="190dp"
+        android:layout_marginTop="42dp"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/telefono"
+        android:id="@+id/t1"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/imageView3"
+        android:layout_toLeftOf="@+id/imageView"
+        android:layout_toStartOf="@+id/imageView" />
+
+    <Button
+        android:text="(998) 881-9601"
+        android:layout_width="wrap_content"
+        android:id="@+id/telpgr"
+        android:background="@android:color/transparent"
+        android:textStyle="italic"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_alignTop="@+id/t1"
+        android:layout_alignParentBottom="true"
+        android:layout_height="30dp" />
 
 </RelativeLayout>
     </ScrollView>
