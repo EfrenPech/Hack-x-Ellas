@@ -9,8 +9,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.jonathan.girlsindistress.MainActivity"
-    android:background="@drawable/fondo">
+    android:background="#FBEFF2"
+    tools:context="com.example.jonathan.girlsindistress.MainActivity">
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -26,29 +26,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/btn2"
-        android:layout_below="@+id/btn1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
         android:id="@+id/btn2"
-        android:background="@android:color/transparent" />
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/btn1"
+        android:layout_alignLeft="@+id/btn1"
+        android:layout_alignStart="@+id/btn1"
+        android:layout_marginTop="38dp" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/btn3"
-        android:layout_below="@+id/btn2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="28dp"
         android:id="@+id/btn3"
-        android:background="@android:color/transparent" />
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/btn2"
+        android:layout_alignLeft="@+id/btn2"
+        android:layout_alignStart="@+id/btn2"
+        android:layout_marginTop="73dp" />
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/btn4"
+        android:id="@+id/btn4"
+        android:background="@android:color/transparent"
         android:layout_below="@+id/btn3"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="18dp"
-        android:id="@+id/btn4"
-        android:background="@android:color/transparent" />
+        android:layout_marginTop="60dp" />
 </RelativeLayout>
