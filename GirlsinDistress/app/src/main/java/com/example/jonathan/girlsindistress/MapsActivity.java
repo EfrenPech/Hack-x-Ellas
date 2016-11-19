@@ -23,6 +23,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
+    LatLng coorIni, coorFin;
     private Marker Marcador;
     double longitude = 0.0;
     double latitude = 0.0;
@@ -46,13 +47,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     private void agregarMarcador(double lat, double lng) {
-        LatLng coordenadas = new LatLng(lat, lng);
-        CameraUpdate miUbicacion = CameraUpdateFactory.newLatLngZoom(coordenadas, 16);
+        coorIni = new LatLng(lat, lng);
+        CameraUpdate miUbicacion = CameraUpdateFactory.newLatLngZoom(coorIni, 16);
         if (Marcador != null) Marcador.remove();
         Marcador = mMap.addMarker(new MarkerOptions()
-                .position(coordenadas)
-                .title(coordenadas.toString())
-                .icon(BitmapDescriptorFactory.fromResource(R.mipmap.ubicacion)));
+                .position(coorIni)
+                .title(coorIni.toString())
+                .icon(BitmapDescriptorFactory.fromResource(R.mipmap.ubicacion2)));
         mMap.animateCamera(miUbicacion);
     }
 
