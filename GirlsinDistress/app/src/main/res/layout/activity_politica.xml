@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_politica"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jonathan.girlsindistress.Politica">
+
+    <TextView
+        android:text="La posibilidad de elegir a un gobernante o ser elegida para gobernar son atributos de la ciudadanía que las mujeres han ido ganando a lo largo de la historia. Sin embargo, el número de mujeres en puestos de elección popular todavía es muy limitado."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView41" />
+
+    <TextView
+        android:text="Debemos aspirar a la ciudadanía plena, a través de una intensa y consciente participación. Para conseguir esto, tenemos derecho a:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView41"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView43" />
+
+    <TextView
+        android:text="Participar activamente y de manera equitativa en las instituciones gubernamentales, la administración pública, los órganos legislativos y los tribunales judiciales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView42"
+        android:layout_marginTop="12dp"
+        android:layout_below="@+id/textView43"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp" />
+
+    <TextView
+        android:text="Tomar decisiones en igualdad de condiciones que los hombres, tanto en el ámbito privado como en el público"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView44"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/textView42"
+        android:layout_alignLeft="@+id/textView42"
+        android:layout_alignStart="@+id/textView42" />
+
+    <TextView
+        android:text="Recibir capacitación para fomentar el liderazgo de las mujeres."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView44"
+        android:layout_alignLeft="@+id/textView44"
+        android:layout_alignStart="@+id/textView44"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView45" />
+</RelativeLayout>

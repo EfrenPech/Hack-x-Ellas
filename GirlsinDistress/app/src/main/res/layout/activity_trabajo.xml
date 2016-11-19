@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_trabajo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jonathan.girlsindistress.Trabajo">
+
+    <TextView
+        android:text="Persiste la discriminación laboral contra las mujeres y es común que se exija a las aspirantes a un puesto un certificado de no gravidez para ocupar una plaza laboral."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView29" />
+
+    <TextView
+        android:text="Para la igualdad en el ámbito laboral tenemos derecho a:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView29"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView30" />
+
+    <TextView
+        android:text="Recibir salario justo e igual al que perciben los hombres por el mismo trabajo,"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView31"
+        android:layout_below="@+id/textView30"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:text="Que hombres y mujeres tengan horarios laborales justos, que les permitan compartir equitativamente las responsabilidades familiares, lo cual debe incluir los permisos y las licencias por maternidad y paternidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView32"
+        android:layout_below="@+id/textView31"
+        android:layout_alignLeft="@+id/textView31"
+        android:layout_alignStart="@+id/textView31" />
+
+    <TextView
+        android:text="Trabajar sin que importe el estado de embarazo, nuestro estado civil o cualquier otra condición especial."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView32"
+        android:layout_alignLeft="@+id/textView32"
+        android:layout_alignStart="@+id/textView32"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView33" />
+
+    <TextView
+        android:text="Que no se discrimine para ocupar puesto alguno por el hecho de ser mujeres."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView34"
+        android:layout_below="@+id/textView33"
+        android:layout_alignLeft="@+id/textView33"
+        android:layout_alignStart="@+id/textView33" />
+</RelativeLayout>

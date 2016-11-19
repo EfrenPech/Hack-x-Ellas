@@ -1,21 +1,225 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_ventana_info"
+    android:id="@+id/activity_derechos"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.jonathan.girlsindistress.VentanaInfo">
+    tools:context="com.example.jonathan.girlsindistress.Derechos">
 
     <TextView
-        android:text="Briceño"
+        android:text="Derecho a la Educación"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Derecho a la Salud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Derecho al Trabajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Derecho al Desarrollo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView9"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Derecho a la Participación Politica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView10"
+        android:textSize="17sp" />
+
+    <TextView
+        android:text="Derecho a un Medio Ambiente Sano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView11"
+        android:textSize="18sp"
+        android:layout_alignRight="@+id/textView10"
+        android:layout_alignEnd="@+id/textView10" />
+
+    <TextView
+        android:text="Derechos de la Mujer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
-        android:id="@+id/textView2" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Igualdad de Género"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Derecho a una Vida sin Violencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_marginTop="24dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Detalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Educacion"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_below="@+id/Igualdad"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Detalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Trabajo"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_below="@+id/Violencia"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Detalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Desarrollo"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_below="@+id/Trabajo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Detalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Politica"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_below="@+id/Desarrollo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Detalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Ambiente"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_below="@+id/Politica"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Detalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Igualdad"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Detalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Salud"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_below="@+id/Educacion"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Detalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Violencia"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_below="@+id/Salud"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Derecho a la Información"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/Informacion"
+        android:layout_alignBottom="@+id/Informacion"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:text="Detalles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Informacion"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_below="@+id/Ambiente"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>

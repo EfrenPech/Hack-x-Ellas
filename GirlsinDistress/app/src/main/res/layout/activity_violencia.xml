@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_violencia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jonathan.girlsindistress.Violencia">
+
+    <TextView
+        android:text="Tener una vida libre de violencia es un derecho humano de las mujeres reconocido por las leyes nacionales e internacionales. Entre estas útimas, destacan las Convenciones sobre la Eliminación de Todas las Formas de Discriminación contra la Mujer y la Interamericana para Prevenir, Sancionar y Erradicar la Violencia contra la Mujer."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView26" />
+
+    <TextView
+        android:text="En México, la mayor parte de las entidades federativas cuenta con leyes de prevención y atención de la violencia intrafamiliar, y a partir de febrero de 2007, dispone también de la Ley General de Acceso de las Mujeres a una Vida Libre de Violencia."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView26"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:id="@+id/textView27" />
+
+    <TextView
+        android:text="Ésta consigna la responsabilidad del Estado mexicano de proteger a las mujeres de los tipos de violencia que las amenazan, principalmente a niñas y mujeres adultas mayores. Además, asienta las bases legales sobre cómo se coordinarán las dependencias federales y los tres órdenes de gobierno para conjuntar esfuerzos, instrumentos, servicios y políticas con el propósito de prevenir, atender, sancionar y erradicar la violencia contra las mujeres en todo el territorio nacional."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView28"
+        android:layout_below="@+id/textView27"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+</RelativeLayout>

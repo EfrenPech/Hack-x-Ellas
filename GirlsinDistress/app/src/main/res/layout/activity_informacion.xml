@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_informacion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jonathan.girlsindistress.Informacion">
+
+    <TextView
+        android:text="Los medios de comunicación, como la televisión, la radio, perió­dicos y revistas, influyen en la vida diaria de las personas y en sus modos de vida; pueden promover estilos que proyectan imágenes discriminatorias hacia las mujeres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView52" />
+
+    <TextView
+        android:text="Para el uso democrático de los medios de comunicación tenemos derecho a:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView52"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView53" />
+
+    <TextView
+        android:text="información"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView53"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textView54" />
+
+    <TextView
+        android:text="la libre expresión"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView54"
+        android:layout_alignLeft="@+id/textView54"
+        android:layout_alignStart="@+id/textView54"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView55" />
+
+    <TextView
+        android:text="tener las mismas oportunidades que los hombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView55"
+        android:layout_alignLeft="@+id/textView55"
+        android:layout_alignStart="@+id/textView55"
+        android:layout_marginTop="13dp"
+        android:id="@+id/textView56" />
+
+    <TextView
+        android:text="Contar con espacios en los medios de comunicación para difundir información sobre nuestros derechos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView57"
+        android:layout_alignLeft="@+id/textView57"
+        android:layout_alignStart="@+id/textView57"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView58" />
+
+    <TextView
+        android:text="Construir una cultura de la equidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView58"
+        android:layout_alignLeft="@+id/textView58"
+        android:layout_alignStart="@+id/textView58"
+        android:layout_marginTop="14dp"
+        android:id="@+id/textView59" />
+
+    <TextView
+        android:text="Que no se promueva en los medios de comunicación ningún tipo de violencia contra las mujeres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView57"
+        android:layout_below="@+id/textView56"
+        android:layout_alignLeft="@+id/textView56"
+        android:layout_alignStart="@+id/textView56"
+        android:layout_marginTop="15dp" />
+</RelativeLayout>
